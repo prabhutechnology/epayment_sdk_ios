@@ -1,0 +1,11 @@
+framework module PrabhuPAY_SDK {
+  umbrella header "PrabhuPAY_SDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PrabhuPAY_SDK.Swift {
+    header "PrabhuPAY_SDK-Swift.h"
+    requires objc
+}
